@@ -11,13 +11,21 @@ if(c == 3)
     {
         console.log('c értéke 3');
     }
-
+for(let i = 0; i < 3; i++){
+        console.log(i);
+    }
+    
+while(b > 0){
+        console.log(b);
+        b--;
+    }
+    
     function greetings(name) {
         console.log(`Hello, ${name}!`); // altgr + 7 -> backtick
     }
     
     greetings('John');
-    //c = 4; - nem lehet
+    
     
 const cim = document.querySelector('h1');
 const input = document.querySelector('input#nev');
